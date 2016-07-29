@@ -30,6 +30,7 @@ static const Rule rules[] = {
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "chromium", NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "Opera",    NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "qutebrowser",    NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
 /* layout(s) */

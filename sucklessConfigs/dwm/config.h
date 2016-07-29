@@ -23,10 +23,13 @@ static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
+        get 'class' by using '$ xprop'
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "chromium", NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Opera",    NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
